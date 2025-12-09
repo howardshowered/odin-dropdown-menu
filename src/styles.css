@@ -1,0 +1,26 @@
+#dropdown-btn {
+    background-image: url("../res/dropdown-menu.svg");
+    width:170px;
+    height:100px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+
+.dropdown-menu {
+    /* visibility: hidden; */
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.menu-item {
+    border: black 2px solid;
+    width: 10%;
+    height: 40px;
+    text-align: center;
+    padding: 50px;
+    font-size: 2rem;
+    background-color: lightblue;
+    
+}
